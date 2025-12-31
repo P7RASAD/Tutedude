@@ -1,1 +1,9 @@
 # Tutedude
+First Assignment sloution
+
+
+
+
+
+
+
