@@ -1,24 +1,14 @@
-# First number 5
-# Second number 10
-# Addition
-num1 = 5
-num2 = 10
-print(num1 + num2)
+# numbers from user
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
 
-# Subtraction
-print(num1 - num2)
+print(f"Addition: {num1 + num2}")
+print(f"Subtraction: {num1 - num2}")
+print(f"Multiplication: {num1 * num2}")
+print(f"Division: {num1 / num2}")
 
-# Multiplication
-print(num1 * num2)
-
-# Division
-print(num1 / num2)
-
-# User input
+# user name input
 first_name = input("Enter your first name: ")
 last_name = input("Enter your last name: ")
 
-
-# Hello, John Doe! Welcome to the python program.
-message = f"Hello, {first_name} {last_name}! Welcome to the python program."
-print(message)
+print(f"Hello, {first_name} {last_name}! Welcome to the Python program.")
