@@ -6,5 +6,7 @@ else:
     print(s1,("This number is Odd"))
 
 #calculate sum
-total=sum(range(1,51))
-print("The sum of number is 1 to 50 is:",total)
+total = 0
+for i in range(1, 51):
+    total = total + i
+print("The sum of number from 1 to 50 is:", total)
